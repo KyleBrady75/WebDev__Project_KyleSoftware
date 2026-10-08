@@ -1,54 +1,52 @@
-body{
+body {
     background-color: rgb(173, 173, 173);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
     background-color: #116cf5;
-    border: 3px solid black
-}
-
-
-.nav li {
-    float:left
+    border: 3px solid black;
 }
 
 .nav li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .nav li a:hover {
-  background-color: #3676b3;
+    background-color: #3676b3;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.BMW{
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+}
+
+.BMW {
     display: block;
-    position: absolute;
-    top: 320px;
-    left: 300px;
     border: 3px solid black;
-    
+    max-width: 100%;
 }
 
-p{
-    
-  font-family: "Times New Roman", Times, serif;
-  font-size: larger;
-}
-
-.specs{
+.specs {
     display: block;
     width: 250px;
     background-color: aliceblue;
+}
+
+.CarOfTheWeek {
+    border: 3px solid black;
+    width: 1200px;
+    background-color: #3676b3;
 }
