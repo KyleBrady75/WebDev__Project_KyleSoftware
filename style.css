@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(173, 173, 173);
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #116cf5;
+    border: 3px solid black
+}
+
+
+.nav li {
+    float:left
+}
+
+.nav li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #3676b3;
+}
+
+h1{
+    text-align: center;
+}
+
+.BMW{
+    display: block;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+    border: 3px solid black;
+    
+}
+
+p{
+    
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.specs{
+    display: block;
+    width: 250px;
+    background-color: aliceblue;
+}
