@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #116cf5;
+    background-color: #55adff;
     border: 3px solid black;
 }
 
@@ -27,7 +27,7 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #3676b3;
+    background-color: #55adff;
     border: 3px solid white;
     width: 500px;
     max-width: 90%;
@@ -62,7 +62,7 @@ p {
     width: 1200px;
     max-width: 100%;
     box-sizing: border-box;
-    background-color: #3676b3;
+    background-color: #55adff;
 }
 
 .john {
