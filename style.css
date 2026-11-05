@@ -12,11 +12,12 @@ body {
     display: flex;
     background-color: #55adff;
     border: 3px solid black;
+
 }
 
 .nav li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
 }
