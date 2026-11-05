@@ -74,7 +74,7 @@ p {
     box-sizing: border-box;
     text-align: center;
     border: 3px solid black;
-    background-color: #3676b3;
+    background-color: #65b5ff;
 }
 
 .gallery {
@@ -100,7 +100,7 @@ p {
 }
 
 .car1 {
-    background-color: #3676b3;
+    background-color: #55adff;
     width: 500px;
     max-width: calc(100% - 40px);
     height: auto;
@@ -118,7 +118,7 @@ p {
 }
 
 .gallery_description {
-    background-color: #3676b3;
+    background-color: #55adff;
     border: 3px solid white;
     font-size: 30px;
     width: 800px;
@@ -156,7 +156,7 @@ p {
 }
 
 .gallery-header{
-    background-color: #3676b3;
+    background-color: #55adff;
     border: 3px solid white;
     position: absolute;
     margin-left: auto;
