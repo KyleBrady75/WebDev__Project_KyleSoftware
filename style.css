@@ -1,40 +1,49 @@
 
+
 body {
-    background-color: rgb(173, 173, 173);
+    background-color: #f5f8fc;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #17233f;
 }
+
+
 
 .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #55adff;
-    border: 3px solid black;
-
+    background-color: white;
+    border-bottom: 3px solid #087bfa;
 }
 
 .nav li a {
     display: block;
-    color: rgb(0, 0, 0);
-    padding: 14px 16px;
+    color: #17233f;
+    padding: 16px 22px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .nav li a:hover {
-    background-color: #3676b3;
+    background-color: #dcecff;
+    color: #0759ad;
 }
+
+
 
 h1 {
     text-align: center;
-    background-color: #55adff;
+    background-color: #0759ad;
+    color: white;
     border: 3px solid white;
     width: 500px;
     max-width: 90%;
     box-sizing: border-box;
-    position: relative;
     margin: 20px auto;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 p {
@@ -42,110 +51,359 @@ p {
     font-size: larger;
 }
 
-.BMW {
-    display: block;
-    border: 3px solid black;
-    max-width: 100%;
-    height: auto;
-    box-sizing: border-box;
+.page-heading {
+    text-align: center;
+    color: #17233f;
+    font-size: 30px;
 }
 
-.specs {
-    display: block;
-    width: 250px;
-    max-width: 100%;
-    background-color: aliceblue;
-    box-sizing: border-box;
+
+
+.car-of-week {
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr 1.2fr;
+    align-items: center;
+    gap: 25px;
+
+    background-color: white;
+
+    margin: 30px;
+    padding: 25px;
+
+    border-radius: 15px;
+    border: 1px solid #dce8f5;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
 }
 
-.CarOfTheWeek {
-    border: 3px solid black;
-    width: 1200px;
-    max-width: 100%;
-    box-sizing: border-box;
-    background-color: #55adff;
+
+
+.car-image img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
+
+
+.car-details {
+    color: #101d3a;
+}
+
+.featured-label {
+    display: inline-block;
+
+    background-color: #0759ad;
+    color: white;
+
+    padding: 8px 15px;
+    border-radius: 20px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.car-details h2 {
+    font-size: 38px;
+    margin: 15px 0;
+    color: #101d3a;
+}
+
+.car-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+
+.car-specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+
+.spec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 18px 10px;
+
+    background-color: #f3f8ff;
+    border: 1px solid #dceaff;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+
+
+.spec:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 5px 12px rgba(8, 123, 250, 0.15);
+
+    border-color: #087bfa;
+}
+
+
+
+.spec-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: #dcecff;
+    color: #0759ad;
+
+    border-radius: 50%;
+
+    font-size: 27px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+
+
+.spec-icon svg {
+    width: 24px;
+    height: 24px;
+
+    fill: none;
+    stroke: currentColor;
+
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+
+.euro-icon {
+    font-size: 27px;
+}
+
+
+.spec h3 {
+    color: #0759ad;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.spec p {
+    color: #333333;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
 
 .john {
-    position: absolute;
-    right: 20px;
-    top: 180px;
-    width: 500px;
-    max-width: calc(100% - 40px);
+    position: relative;
+
+    width: calc(100% - 60px);
+    max-width: 900px;
+
     box-sizing: border-box;
+
+    margin: 40px auto;
+    padding: 25px;
+
     text-align: center;
-    border: 3px solid black;
-    background-color: #65b5ff;
+
+    border: 2px solid #dce8f5;
+    border-radius: 15px;
+
+    background-color: white;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
+
+.john h3 {
+    color: #0759ad;
+    font-size: 25px;
+}
+
+.john img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+.john p {
+    line-height: 1.6;
+    color: #17233f;
+}
+
+
 
 .gallery {
     position: relative;
     isolation: isolate;
+
     overflow: hidden;
+
     min-height: 100vh;
     padding: 20px 0;
+
     box-sizing: border-box;
 }
 
 .gallery::before {
     content: "";
+
     position: absolute;
     inset: -10px;
+
     background-image: url("collection.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     filter: blur(8px);
+
     z-index: -1;
     pointer-events: none;
 }
 
+
 .car1 {
     background-color: #55adff;
+
     width: 500px;
     max-width: calc(100% - 40px);
+
     height: auto;
     padding: 0;
-    margin: 20px 0 20px 50px;
+
+    margin: 20px auto;
+
     border: 3px solid white;
+
     box-sizing: border-box;
     position: relative;
 }
 
 .ferrari812 {
     display: block;
+
     height: auto;
     width: 100%;
 }
 
+
+
 .gallery_description {
     background-color: #55adff;
+
     border: 3px solid white;
+
     font-size: 30px;
+
     width: 800px;
     max-width: calc(100% - 40px);
+
     box-sizing: border-box;
+
     position: relative;
+
     margin: 20px auto;
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+
+
+.gallery-header {
+    background-color: #55adff;
+    border: 3px solid white;
+
+    text-align: center;
+
+    position: relative;
+
+    width: 500px;
+    max-width: 90%;
+
+    box-sizing: border-box;
+
+    margin: 20px auto;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .car-of-week {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .car-specs {
+        grid-column: 1 / -1;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    /* NAVIGATION */
+
     .nav {
         flex-wrap: wrap;
     }
 
-    .john {
-        position: relative;
-        top: auto;
-        right: auto;
-        width: calc(100% - 40px);
-        margin: 20px auto;
+    .nav li a {
+        padding: 14px;
     }
 
-    .car1 {
-        margin: 20px auto;
+
+
+    .car-of-week {
+        display: flex;
+        flex-direction: column;
+
+        margin: 15px;
+        padding: 15px;
     }
+
+    .car-image,
+    .car-details,
+    .car-specs {
+        width: 100%;
+    }
+
+    .car-image img {
+        height: auto;
+    }
+
+    .car-details h2 {
+        font-size: 30px;
+    }
+
+    .car-specs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .john {
+        width: calc(100% - 30px);
+        margin: 25px auto;
+    }
+
+
 
     .gallery_description {
         font-size: 22px;
@@ -154,16 +412,6 @@ p {
     h1 {
         font-size: 24px;
     }
+
 }
 
-.gallery-header{
-    background-color: #55adff;
-    border: 3px solid white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-}
- body {
-    background-image: url(blue.jpg);
-    background-size: cover;
- }
