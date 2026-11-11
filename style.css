@@ -144,56 +144,6 @@ p {
 
 
 
-.spec:hover {
-    transform: translateY(-4px);
-
-    box-shadow: 0 5px 12px rgba(8, 123, 250, 0.15);
-
-    border-color: #087bfa;
-}
-
-
-
-.spec-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 45px;
-    height: 45px;
-
-    background-color: #dcecff;
-    color: #0759ad;
-
-    border-radius: 50%;
-
-    font-size: 27px;
-    font-weight: bold;
-
-    margin-bottom: 8px;
-}
-
-
-
-.spec-icon svg {
-    width: 24px;
-    height: 24px;
-
-    fill: none;
-    stroke: currentColor;
-
-    stroke-width: 1.8;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-
-
-
-.euro-icon {
-    font-size: 27px;
-}
-
-
 .spec h3 {
     color: #0759ad;
     font-size: 20px;
